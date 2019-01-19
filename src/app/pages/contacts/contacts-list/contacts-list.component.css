@@ -1,0 +1,25 @@
+.needs-validation{
+  padding: 10px;
+}
+.form-control{
+  margin: 5px;
+}
+th{
+  text-align: center;
+}
+.table{
+  justify-content: space-around;
+}
+form{
+  background-color: black;
+}
+input{
+  background-color: white;
+}
+.choose_file{
+  background-color: white;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 20px;
+}

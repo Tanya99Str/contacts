@@ -1,0 +1,15 @@
+/* .main-dark{
+  background-color: black;
+  height: 50px;
+  align-items: center;
+} */
+.bg-dark{
+  height: 50px;
+}
+.navbar-nav{
+  flex-direction: row;  
+  background-color: black;
+}
+.nav-link{
+  color: white;
+}

@@ -1,0 +1,143 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "contact_name": "Jeffery Graham",
+      "phone_number": "(115)-788-7707",
+      "email": "jeffery.graham12@example.com",
+      "details": "Address: 1600 Gray Rdpark St"
+    },
+    {
+      "id": 2,
+      "contact_name": "Brooklyn Porter",
+      "phone_number": "(626)-307-7266",
+      "email": "brooklyn.porter53@example.com",
+      "details": "Address: 5576 Partridge Ave"
+    },
+    {
+      "id": 3,
+      "contact_name": "Ben Ray",
+      "phone_number": "(375)-726-8334",
+      "email": "ben.ray55@example.com",
+      "details": "Address: 6897 Samaritan Dr"
+    },
+    {
+      "id": 4,
+      "contact_name": "Kathy Lawrence",
+      "phone_number": "(894)-972-3881",
+      "email": "kathy.lawrence97@example.com",
+      "details": "Address: 6009 Washington Rd"
+    },
+    {
+      "id": 5,
+      "contact_name": "Bradley Webb",
+      "phone_number": "(739)-623-1683",
+      "email": "bradley.webb18@example.com",
+      "details": "Address: 5465 Shady Ln Dr"
+    },
+    {
+      "id": 7,
+      "contact_name": "Ricardo Lynch",
+      "phone_number": "(916)-972-6318",
+      "email": "ricardo.lynch76@example.com",
+      "details": "Address: 5881 Saddle Dr"
+    },
+    {
+      "id": 8,
+      "contact_name": "Ben Mendoza",
+      "phone_number": "(161)-373-8505",
+      "email": "ben.mendoza80@example.com",
+      "details": "Address: 3102 Woodlane Dr"
+    },
+    {
+      "id": 9,
+      "contact_name": "Stacy Palmer",
+      "phone_number": "(441)-310-9054",
+      "email": "stacy.palmer53@example.com",
+      "details": "Address: 8381 Rolling Green Rd"
+    },
+    {
+      "id": 10,
+      "contact_name": "Lori Murray",
+      "phone_number": "(705)-238-9927",
+      "email": "lori.murray47@example.com",
+      "details": "Address: 5091 Rolling Green Rd"
+    },
+    {
+      "id": 12,
+      "contact_name": "Tetjana Strutynska",
+      "phone_number": "0934756332",
+      "email": "tetjana00iris@gmail.com",
+      "isDetails": false
+    },
+    {
+      "id": 13,
+      "contact_name": "Vicki Hamilton",
+      "phone_number": "(112)-268-5824",
+      "email": "vicki.hamilton41@example.com",
+      "details": "Address: 1677 Watika St"
+    },
+    {
+      "id": 14,
+      "contact_name": "Clifton Harris",
+      "phone_number": "(184)-680-8602",
+      "email": "clifton@example.com",
+      "details": "Address: 7420 E Little York Rd"
+    },
+    {
+      "id": 15,
+      "contact_name": "Michael Chavez",
+      "phone_number": "(603)-230-6882",
+      "email": "michael92@example.com",
+      "details": "Address: 2409 Cedar Dr"
+    },
+    {
+      "id": 16,
+      "contact_name": "Martha Baker",
+      "phone_number": "(180)-862-8488",
+      "email": "martha.baker45@example.com",
+      "details": "Address: 2286 Brown Terrace"
+    },
+    {
+      "id": 17,
+      "contact_name": "Alfred Matthews",
+      "phone_number": "(630)-522-4270",
+      "email": "alfred.matthews10@example.com",
+      "details": "Address: 4964 Glendale St"
+    },
+    {
+      "id": 18,
+      "contact_name": "June Carpenter",
+      "phone_number": "(478)-502-2275",
+      "email": "june.carpenter17@example.com",
+      "details": "Address: 6706 Adams St"
+    },
+    {
+      "id": 19,
+      "contact_name": "Cody Jackson",
+      "phone_number": "(392)-553-7225",
+      "email": "cody.jackson93@example.com",
+      "details": "Address: 5668 Washington Ave"
+    },
+    {
+      "id": 20,
+      "contact_name": "Janice Coleman",
+      "phone_number": "(349)-257-3883",
+      "email": "janice.coleman95@example.com",
+      "details": "Address: 3470 Oak Lawn Ave"
+    },
+    {
+      "id": 21,
+      "contact_name": "Jeffery Hamilton",
+      "phone_number": "(605)-941-5157",
+      "email": "jeffery.hamilton32@example.com",
+      "details": "Address: 3316 E Adele St"
+    },
+    {
+      "id": 22,
+      "contact_name": "Tetjana Strutynska",
+      "phone_number": "0934756332",
+      "isDetails": false
+    }
+  ]
+}

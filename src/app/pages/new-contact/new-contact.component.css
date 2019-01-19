@@ -1,0 +1,24 @@
+.container{
+    padding: 10px;
+    margin-left: 50% auto;
+    margin-top: 20px; 
+}
+.add_contact{
+   margin-bottom: 20px;
+   margin-left: 80%;
+}
+.form-control{
+    margin: 5px;
+}
+th{
+    text-align: center;
+}
+.table{
+    justify-content: space-around;
+}
+form{
+    background-color: black;
+}
+input{
+    background-color: white;
+}

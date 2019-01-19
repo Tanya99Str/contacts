@@ -1,0 +1,47 @@
+<form class="container" 
+#newContactForm="ngForm"
+(ngSubmit)="onSubmit()">
+    <div class="form-row new-contact">
+        <div class="col-md-3 mb-3">
+          <input type="text" 
+          class="form-control" 
+          placeholder="Name"
+          name="contact_name"
+          [(ngModel)]="contact_name"
+          required>
+        </div>
+        <div class="col-md-4 mb-3">
+            <input type="text" 
+            class="form-control" 
+            placeholder="Phone" 
+            name="phone_number"
+            [(ngModel)]="phone_number"
+            required>
+          </div>
+          <div class="col-md-4 mb-3">
+              <input type="text" 
+              class="form-control" 
+              placeholder="Email"
+              name="email"
+              [(ngModel)]="email">
+            </div>
+        </div>
+    <div class="form-row">
+          <div  class="col-md-6 mb-3">
+          <textarea
+          class="form-control"
+          rows="2"
+          placeholder="Details"
+          name="details"
+          [(ngModel)]="details">
+          </textarea>
+          </div>
+    </div>
+    <footer>
+        <button class="btn add_contact btn-lg btn-secondary active"
+        type="submit"
+        [disabled]="newContactForm.invalid">
+      Add contact
+      </button>
+      </footer>
+</form>

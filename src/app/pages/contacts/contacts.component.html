@@ -1,0 +1,19 @@
+<section class="container app-content">
+
+<div class="search">
+  <form class="search_name">
+    <div class="col-md-3 mb-3">
+      <input type="text"
+            class="form-control"
+            name="search"
+            placeholder="Search..."
+            [(ngModel)]="search"/>
+    </div>
+  </form>
+</div>
+
+<app-contacts-list [phoneList]="phone | searchFilter:search"
+              (toggleDetails)="isToggleDetails($event)"
+              (delete)="isDeleteContact($event)"></app-contacts-list>
+
+</section>

@@ -1,0 +1,64 @@
+<table class="table table-dark">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">
+          <i class="material-icons">
+              supervisor_account
+              </i>Name</th>
+      <th scope="col">
+        <i class="material-icons">
+          phone
+          </i>Phone</th>
+      <th scope="col">
+          <i class="material-icons">
+              mail_outline
+              </i>Email</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of phoneList">
+      <td>
+        <h5>
+          {{item.contact_name}} 
+        </h5></td>
+        <td>
+        <p>
+          {{item.phone_number}} 
+        </p></td>
+        <td>
+          <p>
+            {{item.email}} 
+          </p></td>
+          <td>
+              <button class="btn btn-secondary"
+               (click)="onToggleDetails(item)"
+               [disabled]="!item.details">
+               {{item.isDetails ? 'hide': 'show'}} details
+              </button>
+        
+              <button class="btn btn-danger"
+               (click)="onDeleteContact(item)">
+                Delete
+              </button>
+            </td>
+
+        <div class="list-description"
+        *ngIf="item.isDetails">
+        <i class="material-icons">
+            location_on
+            </i>
+          <i>
+          {{item.details}}
+          </i>
+        </div>
+      </tr>
+
+  </tbody>
+</table>
+
+<div class="text-center"
+     *ngIf="!phoneList.length">
+    <p>Contact list is empty. You can create your first contact.</p>
+  </div>
+  

@@ -1,0 +1,8 @@
+.app-main-header{
+    background-color: #2E5894;
+    background-image: url('global-network-connection-world-map.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px 15px;
+    height: 400px;
+}
